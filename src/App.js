@@ -10,6 +10,8 @@ import Reciept from './screens/Reciept';
 import Report from './screens/Report';
 import Studentregister from './screens/Studentregister';
 
+import Main from './Componant/content';
+
 function App() {
   return (
     <div className="bg-Shad-400 min-h-screen flex">
@@ -27,6 +29,9 @@ function App() {
               <Route exact path='report' element={<Report/>} />
               <Route exact path='studentregister' element={<Studentregister/>} />
             </Routes>
+
+            <Main/>
+
             </div>
           
     </div>
