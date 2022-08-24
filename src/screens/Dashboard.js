@@ -1,12 +1,14 @@
 import React from 'react'
-import Table from '../Componant/Table'
+import Studregform from '../Componant/Studregform';
 
 const Dashboard = () => {
   return (
     <div>
-      <Table/>      
+      <Studregform/>
     </div>
   )
 }
 
 export default Dashboard
+
+
