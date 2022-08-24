@@ -17,6 +17,15 @@ module.exports = {
         lightblue:{
           200 : "#D5E6FB"
         },
+        darkblue:{
+          500 : "#020D46"
+        },
+        student:{
+          900 : "#F3797E"
+        },
+        faculty:{
+          900 : "#7DA0FA"
+        }
        
     },
    
